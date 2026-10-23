@@ -71,7 +71,7 @@ definition of the weekly productivity heat map.
   including the type of session (distinguishing work sessions from breaks), when
   the session began, when it ended, its duration, and whether the session was
   completed.
-- Must define "weekly" as seven days, Sunday through Saturday, the rule for
+- Must define "weekly" as seven days, the rule for
   assigning sessions to calendar dates, and how days with no activity are
   represented.
 - Must define a metric that the heat map will track, such as completed-session
