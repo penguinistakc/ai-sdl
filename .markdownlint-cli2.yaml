@@ -5,3 +5,6 @@ config:
     code_blocks: false
     tables: false
     stern: true # ignore long lines that can't be wrapped (e.g. bare URLs)
+
+ignores:
+  - "ai-sdl-artifacts/**"
