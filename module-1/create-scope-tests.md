@@ -100,7 +100,7 @@ interval-transition notifications, and background execution constraints.
 - Must identify that browser audio playback could be restricted by autoplay
   policies or user-interaction requirements.
 - If operating system notifications are proposed, must identify the associated
-  permission requrements and describe behavior when permission is denied.
+  permission requirements and describe behavior when permission is denied.
 - Must acknowledge background-tab throttling, suspension, or delayed JavaScript
   execution.
 - Must distinguish timer accuracy from the ability to deliver notifications
