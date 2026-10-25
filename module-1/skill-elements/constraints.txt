@@ -1,0 +1,19 @@
+1. **Required sections:** Include labeled sections for Overview and Objectives, Functional Requirements, Non-functional Requirements, Acceptance Criteria, Data Requirements, Out of Scope, and Assumptions and Open Questions. Identify the intended user and product purpose. If a section is not applicable, explain why. *(Test 0)*
+
+2. **Feature coverage:** Define specific behaviors for every requested feature, including triggering actions or conditions and observable results. Include at least one testable acceptance criterion per feature. Do not merely restate the product description. *(Test 0)*
+
+3. **Measurable quality requirements:** Identify relevant non-functional requirements, including those implied by the product’s behavior and operating environment. Give performance and quality terms such as “fast,” “responsive,” and “accurate” measurable definitions, or explicitly identify the missing thresholds as unresolved product decisions. *(Tests 0, 1)*
+
+4. **Scope boundaries:** Include an explicit Out of Scope list. Distinguish requested functionality from proposed additions, and label assumptions and proposals. Do not silently introduce capabilities, services, or infrastructure as mandatory requirements. *(Tests 0, 4)*
+
+5. **Open questions:** Surface missing information that materially affects behavior, data, scope, or implementation. For each unresolved decision, explain its impact and whether it blocks implementation. Do not silently resolve unknowns or invent questions about requirements already established. *(Test 4)*
+
+6. **Decisions and dependencies:** Distinguish product decisions from engineering implementation choices, using concrete examples relevant to the product. Identify implementation dependencies and explain what depends on what. *(Test 4)*
+
+7. **Data requirements:** For features that create or use data, define the necessary records, fields, qualifying events, and persistence expectations. For calculated or aggregated outputs, define the metric, grouping rules, boundary conditions, and empty-state behavior. Identify unresolved data decisions explicitly. *(Test 2)*
+
+8. **Environment constraints:** Identify platform capabilities and limitations that affect requested behavior. Address relevant permissions, unavailable or blocked dependencies, and fallback behavior—or explicitly flag unresolved fallback decisions. Do not guarantee behavior the operating environment cannot reliably provide. *(Tests 1, 3)*
+
+9. **Acceptance coverage:** Include observable acceptance conditions for relevant boundary cases, data consistency, and operating-environment limitations, alongside normal feature behavior. Each condition must state an outcome that can be verified. *(Tests 1–3)*
+
+10. **Release completion:** Define verifiable release conditions covering functional correctness, data consistency where applicable, and testing in the supported environment. Do not use subjective phrases such as “fully functional” or “product-ready” as standalone completion conditions. *(Test 4)*
